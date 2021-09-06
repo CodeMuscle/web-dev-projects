@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Travel Landing Page</title>
+</head>
+
+<body>
+    <section class="showcase">
+        <header>
+            <h2 class="logo">Travel</h2>
+            <div class="toggle"></div>
+
+        </header>
+        <video src="video.m4v" muted loop autoplay></video>
+        <div class="overlay"></div>
+        <div class="text">
+            <h2>Never Stop</h2>
+            <h3>Exploring your soul</h3>
+            <p>There is nothing quite like traveling, like seeing a new place for the first time or returning to a favorite one. People of all ages, from all around the world, go to foreign places for different reasons – mainly, for work, family, and leisure.
+                Whether by plane, train, ship or by automobile, traveling is generally a pleasurable experience, at least for the people who can financially afford comfortable and safe methods of travel. But it has more benefits than satisfying one’s
+                need to make money, like, for example, to see loved ones and enjoy oneself on vacation. There are other benefits of traveling worth mentioning and trying out.</p>
+            <a href="#">Explore</a>
+
+
+
+        </div>
+        <ul class="social">
+            <li>
+                <a href="#"><img src="FB.png" alt=""></a>
+            </li>
+            <li>
+                <a href="#"><img src="Insta.png" alt=""></a>
+            </li>
+            <li>
+                <a href="#"><img src="Linked.png" alt=""></a>
+            </li>
+            <li>
+                <a href="#"><img src="YT.png" alt=""></a>
+            </li>
+        </ul>
+    </section>
+    <div class="menu">
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">News</a></li>
+            <li><a href="#">Destinations</a></li>
+            <li><a href="#">Blogs</a></li>
+            <li><a href="#">Contact Us</a></li>
+        </ul>
+    </div>
+    <script>
+        const menuToggle = document.querySelector('.toggle')
+        const showcase = document.querySelector('.showcase')
+
+        menuToggle.addEventListener('click', () => {
+            menuToggle.classList.toggle('active')
+            showcase.classList.toggle('active')
+        })
+    </script>
+</body>
+
+</html>
