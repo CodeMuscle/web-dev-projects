@@ -1,6 +1,6 @@
-#Beats Solo 3 Landing Page 🎧
+# Beats Solo 3 Landing Page 🎧
 
-### Responsive using ScrollReveal.js and some keyframes 🎧
+### Responsive using ScrollReveal.js and some keyframes
 
 - Built with HTML, CSS and JS
 - Dark interface.
